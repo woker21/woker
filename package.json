@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
     "next": "14.1.0",
     "node": "^20.0.0",
     "nvm": "^0.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "tailwind": "^4.0.0",
     "vercel": "^33.4.1"
   },
   "devDependencies": {

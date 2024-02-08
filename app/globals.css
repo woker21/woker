@@ -24,6 +24,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.woker{
+  color: aqua;
+  margin-top: 30px;
 }
 
 @layer utilities {
