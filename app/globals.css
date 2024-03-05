@@ -27,11 +27,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .woker{
   color: aqua;
   margin-top: 30px;
+}
+.programmer{
+  color: #4e1f7a;
 }
 
 @layer utilities {

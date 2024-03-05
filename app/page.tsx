@@ -7,7 +7,7 @@ export default function Home() {
   <div>
     
     <h1 className="woker">Woker Here.</h1>
-    
+    <h2 className="programmer">Front end Programmer</h2>
   </div>
     );
 }
