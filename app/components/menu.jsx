@@ -1,13 +1,28 @@
-const menu = () => {
+import Link from 'next/link'
+
+
+const Menu = () => {
     return (
     <>
     <ul>
-        <li>Home</li>
-        <li>Contact</li>
-        <li>About Me</li>
+        <li>
+            <Link href={'/'}>Home</Link>
+        </li>
+        <li>
+            <Link href={'/about'}>AboutMe</Link>
+        </li>
+        <li>
+            <Link href={'/proyects'}>Proyects</Link>
+        </li>
+        <li>
+            <Link href={'/contact'}>Contact</Link>
+        </li>
+        <li>
+
+        </li>
     </ul>
     </>
     );
 }
 
-export default menu;
+export default Menu;
