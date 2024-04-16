@@ -1,7 +1,13 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useState } from "react";
 
 export default function Home() {
+  const [ver, setVer] = useState(0);
+
+
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -38,6 +44,9 @@ export default function Home() {
           priority
         />
       </div>
+
+      <button onClick={()=> setVer(ver +1)}>Pulsar</button>
+          <h1>{ver}</h1>
 
       <div className={styles.grid}>
         <a
@@ -82,6 +91,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
+
+          
           <h2>
             Deploy <span>-&gt;</span>
           </h2>
