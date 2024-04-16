@@ -24,10 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    
 }
 
 .woker{
