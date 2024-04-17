@@ -1,20 +1,26 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "baccalaureate",
+    duration: "2012 - 2017",
+    institution: "Lic Don romulo gallegos",
   },
   {
     id: 2,
     title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    duration: "2017 - 2022",
+    institution: "National Experimental Polytechnic University 'Antonio José de Sucre'",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Full stack web development",
+    duration: "2022 - 2022",
+    institution: "Lexpin",
+  },
+  {
+    id:4,
+    title: "Mobile application development",
+    duration: "2024  - present",
+    institution: "Grupo Aspasia",
   }
 ]

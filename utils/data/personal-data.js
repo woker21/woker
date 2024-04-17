@@ -6,7 +6,7 @@ export const personalData = {
   email: 'hernandezrichard674@gmail.com',
   phone: '+34 647562456',
   address: 'Avda, Meridiana 584',
-  github: 'https://github.com/said7388',
+  github: 'https://github.com/woker21',
   facebook: 'https://www.facebook.com',
   linkedIn: 'www.linkedin.com/in/richard-hernandez21',
   twitter: 'https://twitter.com',
