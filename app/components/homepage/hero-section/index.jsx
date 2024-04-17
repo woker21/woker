@@ -77,7 +77,7 @@ function HeroSection() {
 
             <Link style={{
               background: 'rgb(139,28,47)',
-              background: 'linear-gradient(90deg, rgba(139,28,47,1) 0%, rgba(68,7,73,1) 76%)'
+              background: 'linear-gradient(90deg, #8b1c2f 0%, rgba(68,7,73,1) 76%)'
             }} className="flex items-center gap-1 hover:gap-3 rounded-full px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
             >
               <span>Get Resume</span>
