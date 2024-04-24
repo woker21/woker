@@ -2,6 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+import Yo from '../../../../public/image/yo.jpg'
 
 
 function AboutSection() {
@@ -25,11 +26,11 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
           
           <Image
-            src={personalData.profile}
+            src={Yo}
             width={280}
             height={280}
             alt="richard"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-150 cursor-pointer"
           />
         </div>
       </div>
